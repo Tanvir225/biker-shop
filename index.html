@@ -45,8 +45,8 @@
     <body class="poppins">
         <header class="container mx-auto">
             <div
-                class="navbar bg-base-100  text-black  px-5 py-4 flex justify-center gap-5 items-center md:gap-80">
-                <div class="flex  items-center justify-center gap-40">
+                class="navbar bg-base-100  text-black  px-5 py-4 flex justify-center gap-5 items-center md:justify-center lg:justify-between">
+                <div class="flex  items-center justify-center gap-48 md:">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -72,13 +72,13 @@
                 <div
                     class=" hidden lg:flex items-center justify-center">
                     <ul
-                        class="menu menu-horizontal px-1 text-base lg:flex items-center justify-center gap-5">
+                        class="menu menu-horizontal px-1 text-base flex justify-center items-center ">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a href>news</a></li>
                         <li><a href>contact</a></li>
                         <a href
-                            class="btn bg-color-primary px-12 py-4 text-white">Log
+                            class="btn bg-color-primary px-10 py-4 text-white">Log
                             In</a>
                     </ul>
                 </div>
@@ -87,7 +87,7 @@
         </header>
         <main class="container mx-auto">
             <!-- hero carousel-->
-            <section class="back">
+            <section class="back px-8 lg:px-0">
 
                 <div class="carousel w-full">
                     <div id="slide1" class="carousel-item relative w-full">
@@ -95,7 +95,7 @@
                             class="flex justify-center flex-col items-center gap-3 p-5 md:p-36 flex-row lg:flex-row">
                             <div class="flex-1 space-y-5">
                                 <h2
-                                    class="text-[#000] text-2xl font-bold md:text-6xl">Ride-on
+                                    class="text-[#000] text-2xl font-bold md:text-5xl lg:text-6xl">Ride-on
                                     R15
                                     V4
                                     <br> with Smile</h2>
@@ -115,7 +115,7 @@
                         </div>
                         <div
                             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❮</a>
                             <a href="#slide2" class="btn btn-circle">❯</a>
                         </div>
                     </div>
@@ -124,9 +124,8 @@
                             class="flex justify-center flex-col items-center gap-3 p-5 md:p-36 flex-row lg:flex-row">
                             <div class="flex-1 space-y-5">
                                 <h2
-                                    class="text-[#000] text-2xl font-bold md:text-6xl">Ride-on
-                                    R15
-                                    V4
+                                    class="text-[#000] text-2xl font-bold md:text-5xl lg:text-6xl">Ride-on
+                                    R15 V4
                                     <br> with Smile</h2>
                                 <p class="text-base font-light text-black">Amet
                                     minim
@@ -153,7 +152,7 @@
                             class="flex justify-center items-center flex-col gap-3 p-5 md:p-36 flex-row lg:flex-row">
                             <div class="flex-1 space-y-5">
                                 <h2
-                                    class="text-[#000] text-2xl font-bold md:text-6xl font-bold">Ride-on
+                                    class="text-[#000] text-2xl font-bold md:text-5xl lg:text-6xl lg:text-6xl font-bold">Ride-on
                                     R15
                                     V4
                                     <br> with Smile</h2>
@@ -174,7 +173,7 @@
                         <div
                             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide4" class="btn btn-circle">❯</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
                         </div>
                     </div>
 
@@ -206,14 +205,14 @@
                 <h2 class="text-black text-3xl font-semibold text-center">latest
                     News</h2>
                 <div
-                    class="my-5 flex flex-col gap-5 justify-center items-center md:flex-row lg:flex-row">
+                    class="my-5 flex flex-col gap-5 justify-center items-center md:grid grid-cols-2 lg:grid-cols-3">
                     <div class="card  bg-base-100 shadow-xl space-y-2">
                         <figure class="px-10 pt-10">
                             <img src="images/others/latest1.png" alt="Shoes"
                                 class="rounded-xl" />
                         </figure>
                         <div class="card-body">
-                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                            <h2 class="card-title ">Ducati XDIAVEL S-73</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Lacus, fermentum amet faucibus
                                 sed id nisi lectus at.</p>
@@ -360,13 +359,13 @@
             <section class="my-36 p-5 md:p-36 lg:p-16">
                 <h2 class="text-[#0D0925] text-5xl font-bold text-center my-10">Frequently
                     Asked <span class="text-color-primary">Questions</span></h2>
-                <div class="flex flex-col justify-center gap-16 items-center md:flex-row gap-5 lg:flex-row">
+                <div class="flex flex-col justify-center gap-16 items-center md:flex-col gap-5 lg:flex-row">
 
-                    <div class=" w-full md:w-1/2">
+                    <div class=" w-full md:w-full lg:w-1/2">
                         <img src="images/others/faq.png" class="w-3/5 mx-auto" alt>
                     </div>
 
-                    <div class="w-full flex flex-col  mx-auto  gap-5 md:w-1/2">
+                    <div class="w-full flex flex-col  mx-auto  gap-5 md:w-full gap-10 lg:w-1/2">
                         <div class="collapse collapse-arrow bg-100 border">
                             <input type="radio" name="my-accordion-2"
                                 checked="checked" />
@@ -428,12 +427,12 @@
         </main>
 
         <footer class="footer p-10 bg-black text-neutral-content flex flex-col text-center justify-around items-center lg:flex-row ">
-            <div class="space-y-3 mt-5">
-                <div class="text-sm text-white flex justify-center items-center ml-8 gap-5 md:ml-0">
+            <div class="space-y-3 mt-5 flex flex-col justify-center items-center md:flex-col">
+                <div class="text-sm text-white flex justify-center items-center gap-5">
                     <p>Download Now</p>
                     <p>License</p>
                 </div>
-                <div class="text-sm text-white flex justify-center items-center gap-4 flex-wrap">
+                <div class="text-sm text-white flex justify-center items-center  flex-wrap gap-5">
                     <p>About</p>
                     <p>Features</p>
                     <p>Pricing</p>
@@ -441,8 +440,8 @@
                     <p>Help</p>
                     <p>Privacy Policy</p>
                 </div>
-                <div class="text-sm text-white flex justify-center">
-                    <p class="text-center"> © 2020 bike. All rights reserved</p>
+                <div class="text-sm text-white">
+                    <p class="text-center">©2020 bike. All rights reserved</p>
                 </div> 
     
             </div>
@@ -459,7 +458,7 @@
             </div>
             
             
-          </footer>
+          </footer> 
 
     </body>
 </html>
